@@ -1,0 +1,25 @@
+body{
+    background-color: #F5F5F5;
+    margin: 0;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-weight: bold;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 20px 35px;
+}
+
+table{
+    border-collapse: collapse;
+}
