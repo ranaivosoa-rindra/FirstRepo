@@ -4,7 +4,7 @@
         $sql = "SELECT * FROM student";
 
         $q = $conn->query($sql);
-        $q->setFetchMode(PDO::FETCH_ASSOC);    
+        // $q->setFetchMode(PDO::FETCH_ASSOC);    
     } catch (PDOException $e)
     {
         die("Could not connect to the database $dbname : " . $e->getMessage());
