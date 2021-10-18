@@ -1,3 +1,4 @@
+<?php include("connection.php");?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,24 +25,7 @@
                         </tr>
                     </thead>
                     <tbody class="elements">
-                        <tr>
-                            <td>1</td>
-                            <td>Tom</td>
-                            <td>Kapick</td>
-                            <td>1890-12-02</td>
-                            <td>passing</td>
-                            <td>NULL</td>
-                            <td>1000.99</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Jane</td>
-                            <td>Smith</td>
-                            <td>1888-06-23</td>
-                            <td>passing</td>
-                            <td>NULL</td>
-                            <td>500.12</td>
-                        </tr>
+                        <?php require("insertion_datas.php"); ?>
                     </tbody>
                 </div>
         </table>
